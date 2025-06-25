@@ -58,3 +58,4 @@ rm ./hyprlang -rf
 rm ./rofi-* -rf
 rm ./hyprlock -rf
 rm ./Hyprland -rf
+rm ./hypridle -rf
