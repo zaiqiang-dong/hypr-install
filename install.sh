@@ -34,6 +34,8 @@ execute_script "hyprlock.sh"
 sleep 1
 execute_script "hypridle.sh"
 sleep 1
+execute_script "theme.sh"
+sleep 1
 
 if lspci -k | grep -A 2 -E "(VGA|3D)" | grep -qi "nvidia"; then
     echo "use nvidia gpu"
